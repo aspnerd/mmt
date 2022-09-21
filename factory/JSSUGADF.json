@@ -1,0 +1,9 @@
+{
+	"name": "JSSUGADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d0a18359-f779-4b0e-8496-b1cc841a3fb7",
+		"tenantId": "f64a8230-f0d5-47b3-aa57-71b65a3ace9c"
+	}
+}
