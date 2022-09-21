@@ -1,0 +1,16 @@
+{
+	"name": "ADLJSSUG",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adljssug.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE5Q0U0MTEzLTRCMDktNDBCMy04NUYxLUNGOTg5Q0I1MDk0N18zNGM3YjJkYy00YjA1LTRhNjUtYjJhYS0zNDc5MmQxZGYzODYiDQp9"
+		},
+		"connectVia": {
+			"referenceName": "ir-Fast",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
