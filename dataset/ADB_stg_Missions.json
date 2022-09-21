@@ -1,0 +1,16 @@
+{
+	"name": "ADB_stg_Missions",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jssugsql01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "stg",
+			"table": "Missions"
+		}
+	}
+}
